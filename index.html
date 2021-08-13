@@ -9,11 +9,13 @@
     <!-- Bootstrap styleshit -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- custo style     -->
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -23,19 +25,19 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shows</a>
+                            <a class="nav-link" href="#shows">Shows</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
 
 
@@ -44,18 +46,18 @@
                 </div>
             </div>
         </nav>
-        <!-- Images slider -->
+        <!-- Images slider Carousel-->
         <section class="container ">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active ">
-                        <div class="row bg-info bg-gradient d-flex align-items-center p-5">
+                        <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
                             <div class="col-lg-7">
                                 <h1>Cool Dude Headphone</h1>
                                 <p>This is the best headphone in the world for people who just want to waste time in
                                     front of funky world.</p>
                                 <h1>$450</h1>
-                                <div class="btn btn-warning">Buy now</div>
+                                <button class="panda-btn-buynow">Buy now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -66,7 +68,7 @@
 
                     </div>
                     <div class="carousel-item">
-                        <div class="row bg-info bg-gradient d-flex align-items-center p-5">
+                        <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
                             <div class="col-lg-7">
                                 <h1>X-Box for your living room
                                 </h1>
@@ -75,7 +77,7 @@
 
                                 </p>
                                 <h1>$600</h1>
-                                <div class="btn btn-warning">Buy now</div>
+                                <button class="panda-btn-buynow">Buy now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -83,7 +85,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row bg-info bg-gradient d-flex align-items-center p-5">
+                        <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
                             <div class="col-lg-7">
                                 <h1>Mega LCD TV For Sports
 
@@ -94,7 +96,7 @@
 
                                 </p>
                                 <h1>$1200</h1>
-                                <div class="btn btn-warning">Buy now</div>
+                                <button class="panda-btn-buynow">Buy now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -142,7 +144,8 @@
             </div>
 
         </section>
-        <section class="container">
+        <!-- Show's section -->
+        <section class="container " id="shows">
             <h2>Shows</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -154,7 +157,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buynow">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -168,7 +171,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buynow">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -182,13 +185,14 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buynow">Buy Now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="container my-5">
+        <!-- Backpack's section -->
+        <section class="container my-5" id="backpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -200,7 +204,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buynow">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -213,7 +217,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buynow">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -227,10 +231,21 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buynow">Buy Now</button>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- subscribe section -->
+        <section id="subscribe" style="height: 300px;"
+            class="container d-flex justify-content-center panda-bg-info align-items-center rounded-3">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates no sels,spiceal and more</p>
+                <input class="form-control" type="text" placeholder="Enter your Email">
+                <br>
+                <button class="panda-btn-buynow">Submit</button>
             </div>
         </section>
     </main>
